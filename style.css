@@ -1,0 +1,137 @@
+#form-container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#show-form-button {
+  margin: auto;
+}
+
+#display-container {
+  display: flex;
+  justify-content: center;
+}
+
+#book-table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+#book-table th, #book-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+#book-table th {
+  background-color: black;
+  color: white;
+}
+
+#book-table tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.book-row td:nth-child(1), .book-row td:nth-child(2) {
+  width: 350px;
+}
+
+
+.book-row td:nth-child(3), .book-row td:nth-child(4) {
+  width: 100px;
+}
+
+button {
+  width: 125px;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+
+.remove-button {
+  background-color: rgba(255, 0, 0, 0.633);
+}
+
+
+/*
+
+
+#table-header {
+  display: flex;
+  height: 35px;
+  align-items: center;  
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#table-header > div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  width: 150px;
+  border-right: 1px solid white;
+}
+
+#table-header :nth-child(3) {
+  width: 70px;
+}
+
+#table-header :nth-child(4) {
+  width: 70px;
+}
+
+#display-container > div:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.book-container {
+  display: flex;
+  height: 50px; 
+  border: 1px solid black;
+  align-items: center;
+  border-collapse: collapse; 
+}
+
+.book-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 150px;
+  overflow: hidden; 
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+  border-right: 1px solid black;
+}
+
+.book-container > .pages-field, .book-container > .read-field {
+  width: 70px;
+}
+
+.toggle-button {
+  height: 39.2px;
+  width: 125px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: transparent;
+}
+
+.remove-button {
+  font-weight: bold;
+  margin: 0;
+  padding: 0; 
+  height: 39.2px;
+  width: 125px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+*/
